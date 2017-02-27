@@ -1,0 +1,34 @@
+{
+  "name": "getUser"
+  ,"lowCaseName": "getuser"
+  ,"description": "A simple user Snippet for MODX Revolution."
+  ,"author": "David Pede <dev@tasianmedia.com> <https://twitter.com/davepede>"
+  ,"version": "1.0.0-pl"
+  ,"package":{
+    "actions": [{
+      "id": 1
+      ,"controller": "index"
+    }]
+    ,"elements": {
+      "categories": [{
+        "name": "getUser"
+      }]
+      ,"snippets": [{
+        "name": "getUser"
+        ,"description": "A simple user Snippet for MODX Revolution."
+        ,"file": "snippet.getuser.php"
+        ,"properties": [{
+          "name": "offset"
+          ,"description": "The period of time to add or subtract from the current timestamp. Use relative date/time formats that the strtotime() parser understands."
+          ,"type": "textfield"
+          ,"value": "now"
+        }]
+      }]
+    }
+  }
+  ,"build": {
+    "readme": "docs/readme.txt"
+    ,"license": "docs/license.txt"
+    ,"changelog": "docs/changelog.txt"
+  }
+}
