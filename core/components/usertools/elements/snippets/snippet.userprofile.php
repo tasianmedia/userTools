@@ -39,8 +39,6 @@ if (empty($id)) {
       $results = $modx->getChunk($tpl,$profile->toArray());
     }
     //$results = $profile->toArray();
-  } else {
-    $modx->log(modX::LOG_LEVEL_ERROR, 'userProfile() - Could not find profile for current user');
   }
 }else{
   $search = new search();
