@@ -6,9 +6,9 @@ This extra includes a set of MODX Revolution snippets for retrieving User detail
 Simply download through MODX Package Management, and install.
 
 #### Documentation
-- Official Documentation: http://rtfm.modx.com/extras/revo/userTools
-- GitHub Repository: http://github.com/tasianmedia/userTools
-- Bugs & Feature Requests: http://github.com/tasianmedia/userTools/issues
+- Official Documentation: https://rtfm.modx.com/extras/revo/userTools
+- GitHub Repository: https://github.com/tasianmedia/userTools
+- Bugs & Feature Requests: https://github.com/tasianmedia/userTools/issues
 
 If you have a bug fix or improvement and would like to submit a Pull Request, please make sure you target the 'develop' branch.
 
