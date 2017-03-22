@@ -1,7 +1,7 @@
 {
-  "name": "getUser"
-  ,"lowCaseName": "getuser"
-  ,"description": "A simple user Snippet for MODX Revolution."
+  "name": "userTools"
+  ,"lowCaseName": "usertools"
+  ,"description": "A User toolkit Extra for MODX Revolution."
   ,"author": "David Pede <dev@tasianmedia.com> <https://twitter.com/davepede>"
   ,"version": "1.0.0-pl"
   ,"package":{
@@ -11,17 +11,17 @@
     }]
     ,"elements": {
       "categories": [{
-        "name": "getUser"
+        "name": "userTools"
       }]
       ,"snippets": [{
-        "name": "getUser"
-        ,"description": "A simple user Snippet for MODX Revolution."
-        ,"file": "snippet.getuser.php"
+        "name": "userProfile"
+        ,"description": "A simple User Profile Snippet for MODX Revolution."
+        ,"file": "snippet.userprofile.php"
         ,"properties": [{
-          "name": "offset"
-          ,"description": "The period of time to add or subtract from the current timestamp. Use relative date/time formats that the strtotime() parser understands."
-          ,"type": "textfield"
-          ,"value": "now"
+          "name": "id"
+          ,"description": "User ID [OPTIONAL]"
+          ,"type": "integer"
+          ,"value": ""
         }]
       }]
     }
