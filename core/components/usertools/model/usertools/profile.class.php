@@ -28,8 +28,6 @@ class search {
       foreach ($profiles as $profile) {
         $array[] = $profile->toArray();
       };
-    } else {
-      $array = '';
     }
     return $array;
   }
