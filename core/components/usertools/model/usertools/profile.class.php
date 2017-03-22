@@ -30,7 +30,6 @@ class search {
       };
     } else {
       $array = '';
-      $modx->log(modX::LOG_LEVEL_ERROR, 'userTools() - Could not find profile for user ID: ' . implode(",",$ids));
     }
     return $array;
   }
