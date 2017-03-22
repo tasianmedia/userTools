@@ -22,7 +22,17 @@
           ,"description": "User ID [OPTIONAL]"
           ,"type": "integer"
           ,"value": ""
+        },{
+          "name": "tpl"
+          ,"description": "Name of a chunk serving as a template. [REQUIRED]"
+          ,"type": "textfield"
+          ,"value": "profileTpl"
         }]
+      }]
+      ,"chunks": [{
+        "name": "profileTpl"
+        ,"description": "Example Chunk serving as a Template."
+        ,"file": "profile.chunk.tpl"
       }]
     }
   }
