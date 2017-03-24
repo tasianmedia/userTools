@@ -1,6 +1,6 @@
 # userTools 1.0.0-pl
 ### A User toolkit Extra for MODX Revolution.
-This extra includes a set of MODX Revolution snippets for retrieving User details and User related information.
+This extra includes a set of MODX Revolution snippets for retrieving Users and User related information.
 
 #### Installation
 Simply download through MODX Package Management, and install.

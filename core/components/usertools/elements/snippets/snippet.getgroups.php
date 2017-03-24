@@ -4,8 +4,8 @@
  *
  * @author David Pede <dev@tasianmedia.com> <https://twitter.com/davepede>
  * @version 1.0.0-pl
- * @released February 27, 2017
- * @since February 27, 2017
+ * @released March 24, 2017
+ * @since March 24, 2017
  * @package userTools
  *
  * Copyright (C) 2017 David Pede. All rights reserved. <dev@tasianmedia.com>

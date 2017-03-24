@@ -1,6 +1,6 @@
 <?php
 /**
- * @package usertools
+ * @package userTools
  *
  * Copyright (C) 2017 David Pede. All rights reserved. <dev@tasian.media>
  *
