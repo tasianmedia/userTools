@@ -14,12 +14,12 @@
         "name": "userTools"
       }]
       ,"snippets": [{
-        "name": "userProfile"
-        ,"description": "A simple User Profile Snippet for MODX Revolution."
-        ,"file": "snippet.userprofile.php"
+        "name": "getProfile"
+        ,"description": "A simple User Profile retrieval Snippet for MODX Revolution."
+        ,"file": "snippet.getprofile.php"
         ,"properties": [{
           "name": "id"
-          ,"description": "User ID [OPTIONAL]"
+          ,"description": "A comma-separated list of numeric User IDs."
           ,"type": "integer"
           ,"value": ""
         },{
@@ -28,11 +28,54 @@
           ,"type": "textfield"
           ,"value": "profileTpl"
         }]
+      },{
+        "name": "getGroups"
+        ,"description": "A simple User Group retrieval Snippet for MODX Revolution."
+        ,"file": "snippet.getgroups.php"
+        ,"properties": [{
+          "name": "tpl"
+          ,"description": "Name of a chunk serving as a template. [REQUIRED]"
+          ,"type": "textfield"
+          ,"value": "groupTpl"
+        }]
+      },{
+        "name": "getUsers"
+        ,"description": "A simple User retrieval Snippet for MODX Revolution."
+        ,"file": "snippet.getusers.php"
+        ,"properties": [{
+          "name": "id"
+          ,"description": "A comma-separated list of numeric User IDs."
+          ,"type": "integer"
+          ,"value": ""
+        },{
+          "name": "tpl"
+          ,"description": "Name of a chunk serving as a template. [REQUIRED]"
+          ,"type": "textfield"
+          ,"value": "userTpl"
+        },{
+          "name": "activeOnly"
+          ,"description": "When TRUE the results will exclude non-active Users."
+          ,"type": "integer"
+          ,"value": "1"
+        },{
+          "name": "profile"
+          ,"description": "When TRUE the results will include User Profiles."
+          ,"type": "integer"
+          ,"value": "0"
+        }]
       }]
       ,"chunks": [{
         "name": "profileTpl"
         ,"description": "Example Chunk serving as a Template."
-        ,"file": "profile.chunk.tpl"
+        ,"file": "chunk.profile.tpl"
+      },{
+        "name": "groupTpl"
+        ,"description": "Example Chunk serving as a Template."
+        ,"file": "chunk.group.tpl"
+      },{
+        "name": "userTpl"
+        ,"description": "Example Chunk serving as a Template."
+        ,"file": "chunk.user.tpl"
       }]
     }
   }
